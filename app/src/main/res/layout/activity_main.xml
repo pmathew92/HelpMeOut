@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#FFFAFA"
+    android:baselineAligned="true">
+
+
+    <Button
+        android:layout_width="264dp"
+        android:layout_height="100dp"
+        android:text="@string/button1"
+        android:id="@+id/sendMessage"
+        android:layout_gravity="center"
+        android:layout_weight="0.08"
+        android:background="#f46607"
+        android:textSize="30dp"
+        android:textColorHint="@android:color/holo_blue_light"
+        android:textColor="#000080"
+        android:layout_marginTop="170dp" />
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="@string/button2"
+            android:id="@+id/addContacts"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.15"
+            android:layout_margin="40dp"
+            android:onClick="onClick"/>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="Show Contacs"
+            android:id="@+id/showContacs"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.15"
+            android:layout_margin="40dp"
+            android:onClick="onShow"/>
+    </LinearLayout>
+
+
+</LinearLayout>

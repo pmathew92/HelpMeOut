@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SOS</string>
+    <string name="button1">SEND MESSAGE</string>
+    <string name="button2">Add Contacts</string>
+    <string name="title_activity_contacts">contacts</string>
+    <string name="google_app_id">760874968544</string>
+    <string name="title_activity_contact_list">ContactList</string>
+    <string name="ContactList">Contact List</string>
+    <string name="GotoContactList">Select From Contacts</string>
+</resources>
