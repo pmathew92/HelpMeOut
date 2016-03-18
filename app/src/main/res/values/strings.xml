@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SOS</string>
+    <string name="app_name">HelpMeOut</string>
     <string name="button1">SEND MESSAGE</string>
     <string name="button2">Add Contacts</string>
     <string name="title_activity_contacts">contacts</string>

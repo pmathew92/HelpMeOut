@@ -1,4 +1,4 @@
-package com.prince.sos;
+package com.prince.helpmeout;
 
 import org.junit.Test;
 
